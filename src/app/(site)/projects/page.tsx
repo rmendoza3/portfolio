@@ -14,7 +14,6 @@ export default function Projects() {
 	const filters = [
 		{ value: 'all', label: 'All Projects' },
 		{ value: 'web', label: 'Web' },
-		{ value: 'mobile', label: 'Mobile' },
 		{ value: 'fullstack', label: 'Full Stack' },
 	] as const;
 
