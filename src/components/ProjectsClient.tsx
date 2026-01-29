@@ -3,10 +3,10 @@
 import {useState} from "react";
 import Link from "next/link";
 import Image from "next/image";
-import type {Project} from "@/lib/projects";
+import type {ProjectMeta} from "@/lib/projects";
 
 type Props = {
-	projects: Project[];
+	projects: ProjectMeta[];
 };
 
 export default function ProjectsClient({projects}: Props) {
@@ -77,7 +77,7 @@ export default function ProjectsClient({projects}: Props) {
 						</p>
 
 						<div className="mt-4 flex flex-wrap gap-2">
-							{project.tech.map((tech) => (
+							{project.tech.map((tech: string) => (
 								<span
 									key={tech}
 									className="rounded-full bg-slate-100 px-3 py-1 text-sm text-slate-700"
