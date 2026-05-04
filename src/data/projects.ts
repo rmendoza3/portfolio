@@ -24,6 +24,17 @@ export const projects: Project[] = [
 		category: 'fullstack',
 	},
 	{
+    	id: 'beauty-brand',
+    	title: 'Beauty Brand',
+    	description: 'Comprehensive ADA and SEO audit and remediation for a beauty ecommerce brand, resulting in an 18% increase in sales and 140% increase in total sessions year over year.',
+    	longDescription: 'Led a full accessibility and SEO overhaul for a confidential beauty ecommerce client. On the ADA side, I resolved contrast errors, fixed form labeling issues, and corrected broken ARIA syntax to bring the site into compliance. For SEO, I built a custom crawler tool to systematically find and group site-wide issues, then remediated them — correcting heading tag hierarchy, adding and fixing missing or empty alt tags, adding missing image dimensions, and implementing complete ecommerce schema markup. These improvements drove significant Core Web Vitals gains, particularly in LCP and CLS, with Lighthouse scores improving substantially across the board. Measured year-over-year, the work contributed to an 18% increase in sales and a 140% increase in total sessions.',
+    	image: '/projects/beauty-brand.jpg',
+    	technologies: ['ADA / WCAG', 'SEO', 'Schema Markup', 'Core Web Vitals', 'Lighthouse', 'Web Crawler', 'HTML', 'JavaScript'],
+    	liveUrl: '',
+    	githubUrl: '',
+    	category: 'web',
+	},
+	{
 		id: 'filmtools',
 		title: 'Filmtools',
 		description: 'End-to-end ecommerce development supporting performance, marketing, and product operations.',
