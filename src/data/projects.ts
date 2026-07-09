@@ -13,6 +13,17 @@ export interface Project {
 
 export const projects: Project[] = [
 	{
+		id: 'backyard-cook',
+		title: 'Backyard Cook',
+		description: 'A full-stack ordering platform for a wood-fired BBQ business, built with Next.js. Includes a public marketing/ordering site and a custom AI chatbot (Gemini API) that captures structured order inquiries, backed by Redis session storage and an authenticated admin dashboard.',
+		longDescription: 'A two-part Next.js application built for a wood-fired BBQ catering business, covering both the customer-facing experience and the operational backend. The marketing site is a five-page ordering platform designed to convert visitors into inquiries, showcasing the menu, process, and booking flow. Alongside it, I built a standalone AI chatbot service powered by the Gemini API that handles customer conversations and uses a custom draft_inquiry tool to convert freeform chat into structured order data — no manual re-entry needed. Sessions persist through Redis, and an admin dashboard (secured with NextAuth) gives the business owner visibility into inquiries as they come in.',
+		image: '/projects/backyard-cook.jpg',
+		technologies: ['Full-Stack Development', 'AI Integration', 'Next.js', 'React', 'Redis', 'NextAuth'],
+		liveUrl: 'https://backyard-cook.vercel.app/',
+		githubUrl: 'https://github.com/rmendoza3/backyard-cook',
+		category: 'fullstack',
+	},
+	{
 		id: 'portfolio',
 		title: 'Portfolio',
 		description: 'This website is a modern, performance-focused portfolio built with Next.js, React, and Tailwind CSS',
